@@ -1,0 +1,112 @@
+.contact {
+    width: 100%;
+    height: 100%;
+    border-radius: 38px;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1 {
+    color: white;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.contact2 {
+    width: 80%;
+}
+
+.contact3 {
+    display: flex;
+}
+
+.contact4-box {
+    background-color: #333;
+    width: 156px;
+    height: 80px;
+    border: 1px solid #444;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.contact4-box i {
+    font-size: 27px;
+    color: #04b4e0;
+}
+
+.contact5 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.contact6 {
+    display: flex;
+
+}
+
+.contact7 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input {
+    border: none;
+    width: 168px;
+    margin: 5px 0;
+    height: 34px;
+    border: 2px solid #999;
+    background-color: rgba(34, 34, 34, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+input:focus-visible {
+    border: none;
+}
+
+input:focus {
+    border: 2px solid #04b4e0;
+}
+
+textarea {
+    width: 131px;
+    height: 122px;
+    margin-top: 34px;
+    margin-left: 20px;
+    border: 2px solid #999;
+    background-color: rgba(34, 34, 34, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+.butends {
+    padding: 5px 10px;
+    border: 2px solid #04b4e0;
+    width: 131px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.butends:hover {
+    background-color: #04b4e0;
+}
+
+iframe{
+    width: 200px;
+    height: 100px;
+    margin-top: 7px;
+}

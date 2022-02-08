@@ -1,0 +1,386 @@
+.item-aboutme {
+    width: 100%;
+    height: 100%;
+    border-radius: 38px;
+    background-color: #222;
+    overflow-y: scroll;
+}
+
+.item-aboutme2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutme {
+    margin-top: 30px;
+    width: 80%;
+    color: white;
+    display: flex;
+}
+
+.aboutme-text {
+    width: 280px;
+}
+
+.aboutme-text h2 span {
+    color: #04b4e0;
+}
+
+.aboutme-text h2 {
+    margin-bottom: 10px;
+    font-size: 31px;
+}
+
+.aboutme-text p {
+    color: #d5d5d5;
+}
+
+.aboutme-text2 {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.aboutme-text2 p {
+    color: #d5d5d5;
+    margin-bottom: 15px;
+}
+
+.aboutme2 {
+    margin-top: 70px;
+    width: 80%;
+    color: white;
+}
+
+.aboutme2 h2 {
+    margin-bottom: 30px;
+}
+
+.cont {
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.541);
+    border-radius: 38px;
+    margin-right: 20px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 38px;
+    margin-right: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #04b4e0 !important;
+    margin-right: 20px;
+}
+
+.aboutme-text3 p {
+    color: #d5d5d5;
+}
+
+.aboutme-text3 {
+    width: 950px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.aboutme-text3 i {
+    color: rgb(4, 180, 224);
+    font-size: 30px;
+}
+
+.aboutme-text3 h3 {
+    margin: 10px 0;
+}
+
+.aboutme3 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutme-text4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.aboutme3-h3 {
+    font-size: 22px;
+    color: white;
+}
+
+.aboutme3-p span {
+    padding: 5px 10px;
+    background-color: #444;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    margin-left: 7px;
+    transition: 0.3s;
+}
+
+.aboutme3-p span:hover {
+    background-color: rgb(4, 180, 224);
+}
+
+.aboutme3-imgs {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutme3-imgs img {
+    width: 80px;
+}
+
+.aboutme4 {
+    width: 80%;
+    font-size: 18px !important;
+}
+
+.aboutme4 h3 {
+    color: white;
+    margin: 15px 0;
+}
+
+.aboutme4-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.aboutme4-box .box1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 220px;
+    height: 250px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.aboutme4-box .box2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 220px;
+    height: 300px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.aboutme4-box .box1:hover {
+    transform: translateY(-9px);
+}
+
+.aboutme4-box .box2:hover {
+    transform: translateY(-9px);
+}
+
+.boxs h4 {
+    margin-top: 10px;
+    color: #969595;
+    font-size: 15px;
+}
+
+.boxs p {
+    color: white;
+    font-size: 42px;
+}
+
+.boxs .span1 {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.boxs .span2 {
+    cursor: pointer;
+    padding: 5px 16px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 17px;
+    margin: 11px 0;
+    transition: 0.3s;
+}
+
+.boxs .span2:hover {
+    background-color: white;
+    color: black;
+}
+
+.boxs .span3 {
+    color: #969595;
+    font-size: 15px;
+    text-align: center;
+}
+
+.aboutme4-box .box2 h4 {
+    border-bottom: 1px solid rgb(4, 180, 224);
+}
+
+.aboutme4-box .box2 .span2 {
+    border: 1px solid rgb(4, 180, 224);
+    color: white;
+}
+
+.aboutme4-box .box2 .span2:hover {
+    background-color: rgb(4, 180, 224);
+}
+
+.aboutme5 {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.aboutme5 h3 {
+    color: white;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.abouteme5-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.abouteme5-box .box1 {
+    background-color: #333;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    margin-top: 20px;
+}
+
+.abouteme5-box .box1:hover {
+    transform: translateY(-9px) !important;
+}
+
+.abouteme5-box .box1 .p1 {
+    color: rgb(4, 180, 224);
+    font-size: 30px;
+}
+
+.abouteme5-box .box1 .p2 {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.abouteme5-box .box1 span {
+    color: #aaa;
+    font-size: 39px;
+}
+
+.aboutme6 {
+    width: 80%;
+}
+
+.change-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.change-box h3 {
+    color: white;
+    font-size: 22px;
+}
+
+.change-box p {
+    display: flex;
+}
+
+.change-box p span {
+    color: white;
+    padding: 5px 10px;
+    margin-left: 4px;
+    background-color: #7c7c7c;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.change-box p span:hover {
+    background-color: rgb(4, 180, 224);
+}
+
+/* .aboutme6-box {
+    margin-top: 53px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+} */
+
+.aboutme6-box .box1 {
+    width: 230px !important;
+    height: 257px !important;
+    border-radius: 10px;
+    border: 1px solid #444;
+    display: flex !important;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    flex-direction: column;
+}
+
+.aboutme6-box .box1 img {
+    width: 90px;
+    position: absolute;
+    top: -24px;
+    border-radius: 50%;
+}
+
+.aboutme6-box .box1 p {
+    color: #d5d5d5;
+    text-align: center;
+    font-size: 14px;
+    width: 212px;
+}
+
+.box1 i {
+    color: rgba(4, 180, 224, 0.685);
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.boxend h3 {
+    color: white;
+    font-size: 15px;
+}
+
+.boxend span {
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+}

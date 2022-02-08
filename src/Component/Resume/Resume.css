@@ -1,0 +1,294 @@
+.resume {
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.resume h1 {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.items {
+    width: 80%;
+    display: flex;
+}
+
+
+
+.items3 h3 {
+    color: white;
+}
+
+
+.items4 {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+ 
+
+.items3 h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.items4-ss span {
+    font-size: 17px;
+    color: white;
+}
+
+.items4-ss {
+    width: 190px;
+}
+
+.items4-s p {
+    width: 92px;
+    margin-top: 5px;
+}
+
+.items4-s {
+    margin-right: 18px;
+}
+
+.items4-s span {
+    color: #aaa;
+}
+
+.items4-s p {
+    color: #a5a6a7;
+}
+
+.items4-ss p {
+    color: rgba(255, 255, 255, 0.753);
+    margin-top: 5px;
+}
+
+.gic {
+    height: 344px;
+    border-left: 1px solid #a5a6a7;
+    position: absolute;
+    left: 97px;
+    top: 35px;
+}
+
+.items3 {
+    position: relative;
+}
+
+.gic .p1 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 10px;
+    right: -2px;
+    box-shadow: 0px 0px 3px 3px #04b4e0;
+    ;
+}
+
+.gic .p2 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    bottom: 324px;
+    right: -2px;
+    box-shadow: 0px 0px 3px 3px #04b4e0;
+    ;
+}
+
+.gic .p3 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    bottom: 162px;
+    right: -2px;
+    box-shadow: 0px 0px 3px 3px #04b4e0;
+    ;
+}
+
+.gic .p5 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    bottom: 166px;
+    right: -2px;
+    box-shadow: 0px 0px 3px 3px #04b4e0;
+    ;
+}
+
+.gic2 {
+    height: 503px;
+}
+
+.skils {
+    margin-left: 15px;
+}
+
+.skils h3 {
+    color: white;
+    margin-top: 16px;
+}
+
+.skils h4 {
+    margin-top: 15px;
+    color: white;
+    font-size: 11px;
+}
+
+.skilsp {
+    width: 188px;
+    height: 10px;
+    border: 1px solid #04b4e0;
+    margin-top: 5px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.skilsp span {
+    width: 161px;
+    height: 6px;
+    background-color: #04b4e0;
+    position: absolute;
+    border-radius: 28px;
+    top: 1px;
+    left: 1px;
+}
+
+.skilsp p {
+    color: #aaa;
+    position: absolute;
+    right: 4px;
+    top: -21px;
+    font-size: 11px;
+}
+
+.skils3 {
+    margin-top: 50px
+}
+
+.s2 span {
+    width: 100px;
+}
+
+.s3 span {
+    width: 131px;
+}
+
+.s4 span {
+    width: 143px;
+}
+
+.s6 span {
+    width: 137px;
+}
+
+.s7 span {
+    width: 184px;
+}
+
+.s8 span {
+    width: 148px;
+}
+
+.know-box {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.know-box p {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #04b4e0;
+    margin-right: 7px;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.knowledges {
+    margin-top: 35px;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 80%;
+    color: white;
+    margin: 20px 0;
+}
+
+.certificates h3{
+    margin: 10px 0;
+}
+
+.c-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.c-box .box1 {
+    width: 228px;
+    height: 169px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    display: flex;
+}
+
+.c-box .box1 p{
+    width: 45%;
+    height: 100%;
+    background-color: #444;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-box img{
+    width: 80px;
+}
+
+.span{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span h5{
+    width: 84px;
+}
+
+.span span{
+    font-size: 10px;
+}
